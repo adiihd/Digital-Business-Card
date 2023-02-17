@@ -15,10 +15,20 @@ const github = <FontAwesomeIcon icon={faSquareGithub} size="3x" />;
 export default function Footer() {
   return (
     <div className="footer--content">
-      <div className="icon">{twitter}</div>
-      <div className="icon">{facebook}</div>
-      <div className="icon">{instagram}</div>
-      <div className="icon">{github}</div>
+      <div className="icon">
+        <a href="#">{twitter}</a>
+      </div>
+      <div className="icon">
+        <a href="#">{facebook}</a>
+      </div>
+      <div className="icon">
+        <a href="#">{instagram}</a>
+      </div>
+      <div className="icon">
+        <a href="https://github.com/adiihd" target="_blank">
+          {github}
+        </a>
+      </div>
     </div>
   );
 }
