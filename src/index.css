@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #23252c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Information Container */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 10%;
+  width: 30rem;
+  background-color: #1a1b21;
+  border-radius: 25px;
+}
+
+.profile--frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile--info {
+  margin-bottom: 30px;
+}
+
+.profile--img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 25px 25px 0 0;
+  margin-bottom: 30px;
+}
+
+.profile--name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.profile--title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f3bf99;
+}
+
+.profile--site {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.profile--buttons {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 8px;
+  font-size: 1.5rem;
+  width: 11.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn.email {
+  color: #374151;
+  border: 1px #374151;
+}
+
+.btn.linkedin {
+  color: #fff;
+  background-color: #5093e2;
+}
+
+/* About Container */
+
+.about--me {
+  display: block;
+  padding: 50px 50px 30px 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.interests {
+  display: block;
+  padding: 0px 50px 50px 40px;
+  width: 100%;
+  text-align: left;
+}
+/* Interests Container */
+
+/* Footer Container */
+
+.footer--content {
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem 3rem 5rem;
+  color: #918e9b;
+}
